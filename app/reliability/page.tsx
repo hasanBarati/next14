@@ -1,9 +1,14 @@
-import React from 'react'
+import performenceImg from "@/public/reliability.jpg";
+import { Hearo } from "../components/hearo";
 
 function ReliabilityPage() {
   return (
-    <div>ReliabilityPage</div>
-  )
+    <Hearo
+      imgData={performenceImg}
+      imgAlt="wlding"
+      title="Super high reliability hosting"
+    />
+  );
 }
 
-export default ReliabilityPage
+export default ReliabilityPage;

@@ -1,8 +1,14 @@
-import React from 'react'
+
+import { Hearo } from '../components/hearo'
+import performenceImg from "@/public/performance.jpg";
 
 function PerformancePage() {
   return (
-    <div>PerformancePage</div>
+    <Hearo
+    imgData={performenceImg}
+    imgAlt="wlding"
+    title="We serve High pPerformance Appilication"
+  />
   )
 }
 
